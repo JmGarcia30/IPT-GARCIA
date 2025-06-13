@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+</head>
+<body>
+    <header>
+        <h1>UA IT Solutions</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Products Offered</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Basic</td>
+                    <td>&#8369;500.00 </td>
+                    <td>Package includes a fully functional website with desired specifications.</td>
+                </tr>
+
+                <tr>
+                    <td>Premium</td>
+                    <td>&#8369;1000.00 </td>
+                    <td>Enjoy all benefits of the basic package and also includes site support and maintenance.</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3">Additional features after initial project is inclusive of charges.</th>
+                </tr>
+            </tfoot>
+        </table>
+        </section>
+
+        <section>
+            <h1>Contact Form</h1>
+
+            <form action="">
+                <label for="first_name">First Name:</label><br>
+                <input type="text" id="first_name" name="first_name" required autocomplete><br>
+
+                <label for="last_name">Last Name:</label><br>
+                <input type="text" id="last_name" name="last_name" required autocomplete><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required autocomplete><br>
+
+                <label for="contact">Contact Number:</label><br>
+                <input type="tel" id="contact" name="contact" required autocomplete><br>
+
+                <label for="service">Service Type:</label><br>
+                <select name="service" id="service">
+                    <option value="">Front End Programming</option>
+                    <option value="">Back End Programming</option>
+                    <option value="">Full Stack Developer</option>
+                </select><br>
+
+                <label for="preferred_contact">Preferred Contact:</label><br>
+                <input type="checkbox" id="email" name="email">
+                <label for="email">Email</label><br>
+                <input type="checkbox" id="phone" name="phone">
+                <label for="phone">Phone</label><br>
+
+                <label for="package">Package:</label><br>
+                <input type="radio" id="package" name="package" required>
+                <label for="basic">Basic</label><br>
+                <input type="radio" id="package" name="package" required>
+                <label for="premium">Premium</label><br>
+
+                <label for="notes">Message</label><br>
+                <textarea name="notes" id="notes" rows="5"></textarea><br>
+
+                <button type="submit">Send Inquiry</button><br>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
