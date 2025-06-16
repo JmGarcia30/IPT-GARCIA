@@ -1,0 +1,35 @@
+        body{
+            background-color: burlywood;
+        }
+        /*h1{
+            color: blue;
+        }*/
+
+        #second{
+            color: red;
+            text-align: center;
+        }
+
+        .header{
+            color: blueviolet;
+            text-align: center;
+        }
+
+        .font-size{
+            font-size: 50px;
+        }
+
+        .font-color{
+            color: green;
+        }
+
+        #hello{
+            color: brown !important;
+            text-align: center;
+        }
+
+.box{
+    width: 240px;
+    height: 240px;
+    background-color: blue !important;
+}
