@@ -1,0 +1,34 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.external{
+    color: green !important;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+h3 + ol{
+    font-size: 15px;
+}
+
+h4 + img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+ul{
+    list-style-type: none;
+    letter-spacing: 9px;
+}
+
+#paragraph{
+    text-align: center;
+}
