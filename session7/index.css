@@ -1,0 +1,115 @@
+/* CSS RESET */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2, h3, h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#div-3{
+    background-color: rgb(0, 119, 128);
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+
+#div-4{
+    background-color: rgb(163, 83, 156);
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+
+#span-3{
+    background-color: rgb(83, 163, 83);
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+#span-4{
+    background-color: rgb(60, 143, 221);
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+#span-5{
+    background-color: rgb(36, 71, 185);
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+#span-6{
+    background-color: rgb(60, 143, 221);
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+#div-5{
+    background-color: rgb(36, 71, 185);
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+#div-6{
+    background-color: rgb(60, 143, 221);
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+#div-7{
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+#div-8{
+    background-color: greenyellow;
+    border: 2px solid black;
+    display: none;
+}
+
+#span-7{
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: none;
+}
+
+.background{
+    background-image: url(https://specials-images.forbesimg.com/imageserve/67bc8ceddfce63fdaf8b75f8/960x0.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.container-bg{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-title{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    margin: 0;
+    line-height: 40rem;
+}
