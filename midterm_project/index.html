@@ -53,17 +53,15 @@
 
 <!-- MAIN -->
 <!-- Cover / Landing Page -->
-<section class=" cover d-flex flex-column flex-md-row py-4" id="main">
-  <div class="cover-photo col-md-6 d-flex align-items-center justify-content-center mb-4 mb-md-0">
+<section class="cover d-flex flex-column flex-md-row align-items-center" id="main">
+  <div class="cover-photo col-md-5 col-12 mb-3 mb-md-0 d-flex justify-content-center py-5">
     <img src="https://freshsec.com/_next/image/?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fzb97ynnn%2Fproduction%2Faf2348566b19d6081fb9206f8aedaf20690650e0-1400x935.webp%3Ffm%3Dpng%26q%3D50%26auto%3Dformat&w=3840&q=75"
          alt="My Photo"
-         class="rounded-4 object-fit-cover"
-         style="width: 600px; height: 600px; object-fit: cover;">
+         class="rounded-4 img-fluid" />
   </div>
-
-  <div class="cover-text col-md-6 d-flex flex-column justify-content-center align-items-center text-center text-md-start px-3 vh-100">
-    <h1 class="fw-bold mb-2 display-1 text-light" id="name">Hi, I'm JM Garcia</h1>
-    <p class="lead mb-3 text-light" style="font-size: 1rem;">Aspiring Full Stack Developer passionate about building modern web apps.</p>
+  <div class="cover-text col-md-7 col-12 d-flex flex-column justify-content-center align-items-center text-center text-md-start p-4">
+    <h1 class="fw-bold mb-3 display-4 text-light">Hi, I'm JM Garcia</h1>
+    <p class="lead mb-3 text-light">Aspiring Full Stack Developer passionate about building modern web apps.</p>
     <a href="#" class="btn btn-outline-light py-2 px-4 rounded-2">RESUME</a>
   </div>
 </section>
@@ -73,20 +71,27 @@
 
 
 <!-- ABOUT -->
-<div class="about d-flex flex-column justify-content-center align-items-center p-lg-5 p-3 bg-black">
-    <h1 class="text-light my-3 display-2 pb-3">ABOUT</h1>
-    <p class="text-light text-center col-lg-8 col-12 my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptate numquam nobis sed quibusdam, accusamus minima quasi unde illo aliquid nemo cupiditate facilis officia eum vero dolor ad! Ex, voluptates.
-    Cupiditate sequi sed ea inventore quam assumenda iure, vitae pariatur molestiae error explicabo velit mollitia molestias fugiat consequuntur nostrum? Obcaecati dolore aperiam dolorem, magni libero a accusantium ratione in laudantium!
-    Hic autem debitis sint officia reiciendis saepe, rerum nesciunt doloremque est minus numquam voluptate, nobis modi dolorem veritatis necessitatibus consequuntur inventore architecto ipsum, esse quibusdam. Quos dolorem explicabo minus ipsa!</p>
-</div>
+<section class="about py-5 bg-black" id="about">
+  <div class="row align-items-center">
+    <div class="col-md-6 mb-4 mb-md-0 d-flex justify-content-center">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Coding Illustration"  class="img-fluid rounded-4 shadow about-img">
+    </div>
+    <div class="col-md-6 text-light">
+      <h1 class="display-4 fw-bold mb-3 about-title">ABOUT ME</h1>
+      <p class="lead mb-3">Hi! I'm JM Garcia — an aspiring Full Stack Developer with a passion for building sleek, responsive websites and exploring new technologies.</p>
+      <p>I love turning ideas into code, from creative front-end designs to powerful back-end logic. My dream is to create impactful apps that solve real problems and delight users worldwide.</p>
+      <a href="#project" class="btn btn-outline-light mt-3">See My Projects</a>
+    </div>
+  </div>
+</section>
 <!-- ABOUT -->
 
 
 
 
 <!-- TOOLS -->
-<div class="p-lg-5 p-3 text-center tools">
-  <h1 class="my-3 text-dark display-2 pb-3 fw-bold">Tools I Used</h1>
+<div class="p-lg-5 p-3 text-center tools bg-dark">
+  <h1 class="my-3 text-white display-2 pb-3 fw-bold">Tools I Used</h1>
  
   <div class="d-flex flex-row justify-content-around align-items-center flex-wrap">
     <div class="card shadow rounded-2 m-2" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" style="width: 18rem;">
@@ -119,6 +124,13 @@
         <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
     </div>
     </div>
+
+        <div class="card shadow rounded-2 m-2" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" style="width: 18rem;">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/013/313/458/small_2x/html-icon-3d-rendering-illustration-free-vector.jpg" class="card-img-top" alt="HTML logo">
+      <div class="card-body bg-dark shadow">
+        <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    </div>
+    </div>
   </div>
 </div>
 <!-- TOOLS -->
@@ -128,9 +140,33 @@
 
 
 <!-- PROJECT -->
- <div class="vh-100 d-flex bg-black">
-
- </div>
+<section class="projects py-5" id="project">
+  <div class="container text-center">
+    <h2 class="mb-4 section-title">My Projects</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+        <div class="project-card shadow">
+          <img src="images/project1.jpg" alt="Project 1" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">A modern, responsive developer portfolio built with HTML, CSS, and Bootstrap.</p>
+            <a href="https://github.com/username/project-one" target="_blank" class="btn btn-accent">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="project-card shadow">
+          <img src="images/project2.jpg" alt="Project 2" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">A web app that shows live weather data using open APIs and JavaScript.</p>
+            <a href="https://github.com/username/project-two" target="_blank" class="btn btn-accent">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- PROJECT -->
 
 

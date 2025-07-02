@@ -21,22 +21,102 @@
 }
 
 .cover-photo img {
-    height: 600px;
+  width: 100%;
+  max-width: 500px;   
+  height: auto; 
+  border-radius: 1rem; 
+  object-fit: cover;
 }
 
-.about h1:hover {
-    color: #f0c040 !important; 
-    transform: scale(1.05); 
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+
+.about-title {
+  color: #ffffff;
 }
+
+.about-img {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.6);
+}
+
 
 .tools h1:hover {
+    padding-bottom: 4rem;
     color: #f0c040 !important; 
     transform: scale(1.05); 
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.1); /* subtle light border */
+  background-color: #112240;                  /* dark card bg that contrasts black bg */
+  border-radius: 0.75rem;                      /* soft rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);   /* visible shadow for separation */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.projects {
+  background-color: #000000;
+}
+
+.section-title {
+  color: #64FFDA;
+  font-weight: 700;
+}
+
+.project-card {
+  background-color: #112240;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.project-card .card-body {
+  padding: 1rem;
+}
+
+.project-card .card-title {
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.project-card .card-text {
+  color: #CCD6F6;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.btn-accent {
+  background-color: #64FFDA;
+  color: #0A192F;
+  font-weight: 600;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: #52d4b6;
+}
+
 
 .wrapper {
   display: inline-flex;
