@@ -1,7 +1,10 @@
-#main{
+* {
   font-family: "Noto Sans Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+#main{
   background-image: url(./image/background2.png);
   background-attachment: fixed;
 }
@@ -49,14 +52,20 @@
     transform: scale(1.05); 
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 
 .card {
-  border: 1px solid rgba(255, 255, 255, 0.1); /* subtle light border */
-  background-color: #112240;                  /* dark card bg that contrasts black bg */
-  border-radius: 0.75rem;                      /* soft rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);   /* visible shadow for separation */
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  background-color: #112240;                 
+  border-radius: 0.75rem;                      
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);  
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tools_picture-img:hover{
+  transition: transform(1.05);
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.6);
 }
 
 
@@ -64,10 +73,6 @@
   background-color: #000000;
 }
 
-.section-title {
-  color: #64FFDA;
-  font-weight: 700;
-}
 
 .project-card {
   background-color: #112240;
@@ -93,29 +98,16 @@
 
 .project-card .card-title {
   color: #FFFFFF;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
 .project-card .card-text {
-  color: #CCD6F6;
-  font-size: 0.95rem;
+  color: #ffffff;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
-.btn-accent {
-  background-color: #64FFDA;
-  color: #0A192F;
-  font-weight: 600;
-  border: none;
-  padding: 0.4rem 1rem;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.btn-accent:hover {
-  background-color: #52d4b6;
-}
 
 
 .wrapper {
