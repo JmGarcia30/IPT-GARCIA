@@ -1,5 +1,6 @@
 import './App.css';
 import AppNavbar from './components/AppNavbar';
+import About from './pages/About';
 import Home from './pages/Home';
 import Products from './pages/Products';
 
@@ -10,6 +11,7 @@ function App() {
       <AppNavbar/>
       <Home/>
       <Products/>
+      <About/>
     </>
   );
 }
