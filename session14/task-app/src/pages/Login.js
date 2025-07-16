@@ -76,7 +76,7 @@ export default function Login() {
                 <Form className="my-3 p-3 col-12 col-lg-4" onSubmit={loginUser}>
 
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                        <Form.Control type="email" placeholder="Email" required onChange={e => setEmail(e.target.value)} value={email} />
+                        <Form.Control type="email" placeholder="Email" required autoComplete onChange={e => setEmail(e.target.value)} value={email} />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

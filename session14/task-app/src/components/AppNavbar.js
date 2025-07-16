@@ -42,7 +42,7 @@ export default function AppNavbar() {
                                 </>
                                 :
                                 <>
-                                    <Nav.Link as={Link} to="/">Tasks</Nav.Link>
+                                    <Nav.Link as={Link} to="/tasks">Tasks</Nav.Link>
                                     <Nav.Link as={Link} to="/">Profile</Nav.Link>
                                 </>
                         }

@@ -17,8 +17,8 @@ function App() {
     <AuthProvider>
       <BrowserRouter>
         <AppNavbar />
-        <Container>
-        <Routes className = 'd-flex flex-column align-items-center justify-content center' fluid>
+        <Container className = 'd-flex flex-column align-items-center justify-content center' fluid>
+        <Routes >
           <Route path='/register' element={<Register />} />
           <Route path='/login' element={<Login />} />
           <Route path='/tasks' element={<Tasks />} />
